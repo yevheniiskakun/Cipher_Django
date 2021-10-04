@@ -1,3 +1,4 @@
 from django.contrib import admin
+from pages.models import Encryption_method
 
-# Register your models here.
+admin.site.register(Encryption_method)
