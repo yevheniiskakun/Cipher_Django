@@ -3,9 +3,21 @@
 
 
 {% block meta_tags %}
-    <title>Title</title>
+    <title>Cipher</title>
 {% endblock %}
 
 {% block content %}
+    <select class="form-control">
+        <option></option>
+    </select>
+    <div class="mb-3">
+        <label for="cipher_textarea"></label>
+        <textarea class="form-control" id="cipher_textarea" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="decipher_textarea"></label>
+        <textarea class="form-control" id="decipher_textarea" rows="3" disabled></textarea>
+    </div>
+
 
 {% endblock %}
